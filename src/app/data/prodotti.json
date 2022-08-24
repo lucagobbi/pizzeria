@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nome": "Aggiunte",
+    "prezzo": 0.50,
+    "senzaGlutine": null,
+    "senzaLattosio": null,
+    "descrizione": null,
+    "categoriaId": 9
+  },
+  {
+    "id": 2,
+    "nome": "Mozzarella",
+    "prezzo": 1,
+    "senzaGlutine": null,
+    "senzaLattosio": false,
+    "descrizione": null,
+    "categoriaId": 9
+  },
+  {
+    "id": 3,
+    "nome": "Pizza Schiacciata",
+    "prezzo": 1,
+    "senzaGlutine": null,
+    "senzaLattosio": null,
+    "descrizione": null,
+    "categoriaId": 9
+  },
+  {
+    "id": 4,
+    "nome": "Route 66",
+    "prezzo": 3,
+    "senzaGlutine": false,
+    "senzaLattosio": false,
+    "descrizione": "Pomodoro, mozzarella, origano",
+    "categoriaId": 8
+  },
+  {
+    "id": 5,
+    "nome": "Boston",
+    "prezzo": 3,
+    "senzaGlutine": false,
+    "senzaLattosio": false,
+    "descrizione": "Pomodoro, mozzarella, olive, funghi",
+    "categoriaId": 8
+  },
+  {
+    "id": 6,
+    "nome": "Los Angeles",
+    "prezzo": 4,
+    "senzaGlutine": false,
+    "senzaLattosio": false,
+    "descrizione": "Mozzarella, prosciutto crudo, maionese",
+    "categoriaId": 7
+  },
+  {
+    "id": 7,
+    "nome": "Amarillo",
+    "prezzo": 4,
+    "senzaGlutine": false,
+    "senzaLattosio": false,
+    "descrizione": "Mozzarella, prosciutto cotto, pomodoro, insalata",
+    "categoriaId": 7
+  },
+  {
+    "id": 8,
+    "nome": "Caprese",
+    "prezzo": 5,
+    "senzaGlutine": false,
+    "senzaLattosio": false,
+    "descrizione": "Mozzarella, pomodorini, origano",
+    "categoriaId": 6
+  }
+]

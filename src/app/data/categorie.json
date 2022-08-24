@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nome": "Pizze Novità"
+  },
+  {
+    "id": 2,
+    "nome": "Pizze Tradizionali"
+  },
+  {
+    "id": 3,
+    "nome": "Pizze Speciali"
+  },
+  {
+    "id": 4,
+    "nome": "Pizze Famiglia e al Metro"
+  },
+  {
+    "id": 5,
+    "nome": "Pizze Rosse"
+  },
+  {
+    "id": 6,
+    "nome": "Pizze Bianche"
+  },
+  {
+    "id": 7,
+    "nome": "Panini e Piadine"
+  },
+  {
+    "id": 8,
+    "nome": "Bruschetteria"
+  },
+  {
+    "id": 9,
+    "nome": "Supplementi"
+  }
+]
