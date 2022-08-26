@@ -1,9 +1,20 @@
+@import "src/styles";
+
 .map-container {
   margin-top: 7vh;
 
   agm-map {
     height: 60vh;
     width: 50vw;
+  }
+
+}
+
+@media #{$media-mobile} {
+
+  agm-map {
+    height: 55vh!important;
+    width: 77vw!important;
   }
 
 }

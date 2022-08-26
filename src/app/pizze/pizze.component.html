@@ -1,24 +1,27 @@
-<div class="p-3">
-  <mat-chip-list
-    class="example-chip">
-    <mat-chip
-      class="example-box"
-      cdkDrag
-      (click)="filterProdotti(null)"
-    >
-      Tutte
-    </mat-chip>
-    <mat-chip
-      class="example-box"
-      cdkDrag
-      *ngFor="let categoria of categorie"
-      (click)="filterProdotti(categoria.id)"
-    >
-      {{categoria.nome}}
-    </mat-chip>
-  </mat-chip-list>
+<div>
+  <div class="p-3">
+    <mat-chip-list
+      class="example-chip">
+      <mat-chip
+        class="example-box"
+        cdkDrag
+        (click)="filterProdotti(null)"
+      >
+        Tutte
+      </mat-chip>
+      <mat-chip
+        class="example-box"
+        cdkDrag
+        *ngFor="let categoria of categorie"
+        (click)="filterProdotti(categoria.id)"
+      >
+        {{categoria.nome}}
+      </mat-chip>
+    </mat-chip-list>
+  </div>
 
-  <div class="mt-2">
+
+  <div class="p-1">
     <mat-list role="list">
       <mat-list-item class="prodotto my-3" role="listitem" *ngFor="let prodotto of prodottiMostrati">
         <div class="d-flex align-items-center justify-content-between w-100">
