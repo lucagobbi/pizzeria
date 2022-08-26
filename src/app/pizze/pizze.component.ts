@@ -15,7 +15,6 @@ export class PizzeComponent implements OnInit {
   categorie: Categoria[];
   prodotti: Prodotto[];
   prodottiMostrati: Prodotto[];
-  filteractive = false;
 
   constructor() { }
 
@@ -26,12 +25,10 @@ export class PizzeComponent implements OnInit {
   }
 
   filterProdotti(categoriaId: number): any {
-    if (this.filteractive) {
+    if(!categoriaId) {
       this.prodottiMostrati = this.prodotti;
-      this.filteractive = false;
     } else {
       this.prodottiMostrati = this.prodotti.filter(p => p.categoriaId === categoriaId);
-      this.filteractive = true;
     }
   }
 
